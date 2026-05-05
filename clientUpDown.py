@@ -15,12 +15,12 @@ QOS = 0  # Qualité de service
 DEVICE_TOPIC = "#"
 
 
- Base de données MySQL
+#Base de données MySQL
 conn = mysql.connector.connect(
      host="10.0.0.1",
-     user="____",
-     password="_____",
-    database="_________"
+     user="admin",
+     password="choupette35",
+    database="ViaBecherel"
 )
 cursor = conn.cursor()
 
